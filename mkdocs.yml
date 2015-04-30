@@ -5,3 +5,4 @@ docs_dir: Docs
 pages:
 - ['index.md', 'Index']
 - ['GettingStarted/Intro.md', 'Getting Started', 'Getting started']
+- ['APIDocs/WebAPI.md', 'Web API', 'Web API']
