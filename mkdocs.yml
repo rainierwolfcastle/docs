@@ -1,0 +1,7 @@
+site_name: Documentation
+
+docs_dir: Docs
+
+pages:
+- ['index.md', 'Index']
+- ['GettingStarted/Intro.md', 'Getting Started', 'Getting Started']
