@@ -4,4 +4,4 @@ docs_dir: Docs
 
 pages:
 - ['index.md', 'Index']
-- ['GettingStarted/Intro.md', 'Getting Started', 'Introduction']
+- ['GettingStarted/Intro.md', 'Getting Started', 'Getting started with service X']
