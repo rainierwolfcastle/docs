@@ -1,4 +1,4 @@
-# Getting startedc
+# Getting started
 
 This document describes briefly the steps required to start use of LWM2M Client example application on mbed OS. LWM2M Client example application demonstrates how to perform OMA LWM2M bootstrap with bootstrap server and how to register and unregister to mbed Device Server.
 
