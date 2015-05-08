@@ -30,9 +30,9 @@ Go to the Device Connector website and make a note of your API token and domain.
 
 1. Connect the frdm-k64f to the internet using the ethernet cable
 2. Connect the frdm-k64f to the computer with the micro-USB cable, being careful to use the micro-usb port labled "OpenSDA"
-3. Install Yotta. See instructions from http://docs.yottabuild.org/#installing
+3. Install Yotta. See instructions from [Yotta](http://docs.yottabuild.org/#installing)
 4. Install needed toolchains (arm-none-eabi-gcc). Refer to the yotta installation page (in step 1 above) for instructions on how do install the toolchains.
-5. Clone **connector-mbed-client** from https://github.com/ARMmbed/connector-mbed-client
+5. Clone **connector-mbed-client** from [connector-mbed-client](https://github.com/ARMmbed/connector-mbed-client)
 6. Change to the connector-mbed-client directory e.g. `cd connector-mbed-client`
 7. Open file main.cpp, edit your domain in place of `CS_DOMAIN = xxxx`. For example, if your domain is `abc123`, you would enter `abc123`
 8. Set up target device, `yotta target frdm-k64f-gcc`
@@ -53,7 +53,7 @@ This repository contains a simple web site that demonstrates the use of the Devi
 
 ### One click deploy to Heroku
 
-Go to https://github.com/ARMmbed/connector-sample-webapp and click on the purple "Deploy to Heroku" button.
+Go to [connector-sample-webapp](https://github.com/ARMmbed/connector-sample-webapp) and click on the purple "Deploy to Heroku" button.
 
 ### Using the website
 
