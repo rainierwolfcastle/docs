@@ -22,7 +22,7 @@ There are 3 main phases to this example:
 
 ### Create a Device Connector account
 
-Go to the Device Connector website and make a note of your API token and domain.
+Go to the [Device Connector](connector.mbed.org) website and make a note of your API token and domain.
 
 ### mbed Build instructions
 
