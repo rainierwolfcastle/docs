@@ -35,7 +35,7 @@ There are three main phases to this example:
 
 1. Connect the FRDM-K64F to the internet using the Ethernet cable.
 2. Connect the FRDM-K64F to the computer with the micro-USB cable, being careful to use the micro-USB port labeled "OpenSDA".
-3. Clone **connector-mbed-client** from [connector-mbed-client](https://github.com/ARMmbed/connector-mbed-client).
+3. Clone **connector-mbed-client** from [connector-mbed-client](https://github.com/rainierwolfcastle/app).
 4. Open the file `main.cpp` and replace `CS_DOMAIN = xxxx` with your domain. For example, if your domain is `abc123`, you would enter `CS_DOMAIN = abc123`.
 5. Open a terminal and navigate to the connector-mbed-client directory (e.g. `cd connector-mbed-client`).
 6. Set up the target device by entering `yotta target frdm-k64f-gcc`.
@@ -55,7 +55,7 @@ This repository contains a simple website that demonstrates the use of the Devic
 
 ### One click deploy to Heroku
 
-Go to [connector-sample-webapp](https://github.com/ARMmbed/connector-sample-webapp) and click on the purple "Deploy to Heroku" button. Once deployed go to your newly created website.
+Go to [connector-sample-webapp](https://github.com/rainierwolfcastle/app) and click on the purple "Deploy to Heroku" button. Once deployed go to your newly created website.
 
 ### Using the website
 
