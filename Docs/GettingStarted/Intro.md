@@ -60,6 +60,7 @@ Go to [connector-sample-webapp](https://github.com/ARMmbed/connector-sample-weba
 ### Using the website
 
 The front page contains a form with fields for your API Token and your domain.
+
 1. Copy your API token and your domain into the form and click the "Get My Devices" button.
 2. Your devices should then appear in a new page. The button presses column should change when you press the SW2 button on your mbed.
 3. Press the SW2 button on your mbed and watch the counter increase.
