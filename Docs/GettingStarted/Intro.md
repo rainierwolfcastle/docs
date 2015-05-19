@@ -22,7 +22,9 @@ There are 3 main phases to this example:
 
 ### Create a Device Connector account
 
-Go to the [Device Connector](connector.mbed.org) website and make a note of your API token and domain.
+1. Go to the [Device Connector](connector.mbed.org) and login using your mbed.org username and password.
+2. After you've logged in, make a note of your domain. Your domain is printed in the top right hand side of the website.
+3. Click on the API Tokens tab along the top of the screen and create a new API token. Make a note of your API token.
 
 ### mbed Build instructions
 
@@ -53,8 +55,11 @@ This repository contains a simple web site that demonstrates the use of the Devi
 
 ### One click deploy to Heroku
 
-Go to [connector-sample-webapp](https://github.com/ARMmbed/connector-sample-webapp) and click on the purple "Deploy to Heroku" button.
+Go to [connector-sample-webapp](https://github.com/ARMmbed/connector-sample-webapp) and click on the purple "Deploy to Heroku" button. Once deployed go to your newly created web site.
 
 ### Using the website
 
-Plug these values into the boxes on the Device List web site and click the "Get My Devices" button. Your registered devices should then appear in a table.
+The front page contains a form with fields for your API Token and your domain.
+1. Copy your API token and your domain into the form and click the "Get My Devices" button.
+2. Your devices should then appear in a new page. The button presses column should change when you press the SW2 button on your mbed.
+3. Press the SW2 button on your mbed and watch the counter increase.
