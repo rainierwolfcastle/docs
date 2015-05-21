@@ -35,7 +35,7 @@ There are three main phases to this example:
 
 1. Connect the FRDM-K64F to the internet using the Ethernet cable.
 2. Connect the FRDM-K64F to the computer with the micro-USB cable, being careful to use the micro-USB port labeled "OpenSDA".
-3. Clone **connector-mbed-client** from [connector-mbed-client](https://github.com/rainierwolfcastle/app).
+3. Clone **connector-mbed-client** from [connector-mbed-client](https://github.com/ARMmbed/connector-mbed-client).
 4. Open the file `main.cpp` and replace `CS_DOMAIN = xxxx` with your domain. For example, if your domain is `abc123`, you would enter `CS_DOMAIN = abc123`.
 5. Open a terminal and navigate to the connector-mbed-client directory (e.g. `cd connector-mbed-client`).
 6. Set up the target device by entering `yotta target frdm-k64f-gcc`.
@@ -45,7 +45,7 @@ The binary file will be created in the `build/frdm-k64f-gcc/source` folder.
 
 #### Flashing to target device
 
-1. Plug the USB cable into the J26 port on the K64F board. Plug the other end into a USB port on your computer. The board will be listed as a USB mass storage device. 
+1. Plug the USB cable into the J26 port on the K64F board. Plug the other end into a USB port on your computer. The board will be listed as a USB mass storage device.
 2. Your binary file will be under `build/frdm-k64f-gcc/test/connector-mbed-client` and its name will be `connector-mbed-client.bin`. Drag and drop the binary file to the board. This will flash the binary to the target MCU.
 3. Press the reset button to run the program.
 
@@ -62,5 +62,5 @@ Go to [connector-sample-webapp](https://github.com/rainierwolfcastle/app) and cl
 The front page contains a form with fields for your API Token and your domain.
 
 1. Copy your API token and your domain into the form and click the "Get My Devices" button.
-2. Your devices should then appear in a new page. 
+2. Your devices should then appear in a new page.
 3. The Button Presses column shows how many times the SW2 button on your mbed has been pressed. Press the SW2 button on your mbed and watch the counter increase.
