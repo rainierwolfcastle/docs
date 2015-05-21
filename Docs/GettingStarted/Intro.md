@@ -43,7 +43,7 @@ There are three main phases to this example:
 
 #### Flashing to target device
 
-1. Your binary file will be under `build/frdm-k64f-gcc/test/connector-mbed-client` and its name will be `connector-mbed-client.bin`. Drag and drop the binary file to the board. This will flash the binary to the target MCU.
+1. Your binary file will be under `build/frdm-k64f-gcc/source/connector-mbed-client` and its name will be `connector-mbed-client.bin`. Drag and drop the binary file to the board. This will flash the binary to the target MCU.
 2. Press the reset button to run the program.
 
 ## Deploying a sample web app
