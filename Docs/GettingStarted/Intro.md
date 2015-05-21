@@ -41,13 +41,10 @@ There are three main phases to this example:
 6. Set up the target device by entering `yotta target frdm-k64f-gcc`.
 7. Enter `yotta build`.
 
-The binary file will be created in the `build/frdm-k64f-gcc/source` folder.
-
 #### Flashing to target device
 
-1. Plug the USB cable into the J26 port on the K64F board. Plug the other end into a USB port on your computer. The board will be listed as a USB mass storage device.
-2. Your binary file will be under `build/frdm-k64f-gcc/test/connector-mbed-client` and its name will be `connector-mbed-client.bin`. Drag and drop the binary file to the board. This will flash the binary to the target MCU.
-3. Press the reset button to run the program.
+1. Your binary file will be under `build/frdm-k64f-gcc/test/connector-mbed-client` and its name will be `connector-mbed-client.bin`. Drag and drop the binary file to the board. This will flash the binary to the target MCU.
+2. Press the reset button to run the program.
 
 ## Deploying a sample web app
 
