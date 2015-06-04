@@ -11,8 +11,7 @@ This document describes how to get started with the Device Connector.
 
 ## Required software
 
-* [yotta](https://github.com/ARMmbed/yotta): used to programs. Please note that **yotta has its own set of dependencies**, listed in the [installation instructions](http://armmbed.github.io/yotta/#installing-on-windows).
-* [ARM GCC toolchain](https://launchpad.net/gcc-arm-embedded). Refer to the yotta installation page (above) for instructions on how to install the toolchains.
+* [yotta](https://github.com/ARMmbed/yotta): used to programs. Please note that **yotta has its own set of dependencies**, listed in the [installation instructions](http://docs.yottabuild.org/#installing).
 * If your OS is Windows, please follow the installation instructions [for the serial port driver](https://developer.mbed.org/handbook/Windows-serial-configuration).
 
 ## Setting up the environment
