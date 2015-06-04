@@ -1,6 +1,4 @@
-# Hello
-
-Placeholder for aspirational content.
+# Device Connector
 
 ## Contents
 
