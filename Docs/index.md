@@ -1,8 +1,10 @@
 # Device Connector
 
-## Contents
+Welcome. We’re here to help you build awesome connected products with mbed.
 
-This document covers:
+If you’re totally new check out our starters documentation, which will walk you through everything you need to know.
+
+## Contents
 
 1. [A getting started guide](GettingStarted/Intro.md) for first-time users including how to set up an account and connect your first mbed.
 
