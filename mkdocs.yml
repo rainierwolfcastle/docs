@@ -5,5 +5,5 @@ docs_dir: Docs
 pages:
 - ['index.md', 'Index']
 - ['GettingStarted/Intro.md', 'Getting Started', 'Getting started']
-- ['APIDocs/WebAPI.md', 'Web API', 'Web API']
-- ['APIDocs/M2MAPI.md', 'M2M API', 'M2M API']
+# - ['APIDocs/WebAPI.md', 'Web API', 'Web API']
+# - ['APIDocs/M2MAPI.md', 'M2M API', 'M2M API']
